@@ -1,30 +1,46 @@
-# Class Role Selector (Mini Project) (--FIRST PROJECTS--)
+# Class Role Selector 🎓
 
-This is a simple Python script that takes the names and ages of 5 classmates and determines who will be the **professor** and who will be the **assistant**, based on age.
+A simple Python script that automatically assigns classroom roles based on age. Given a list of classmates, it selects the **oldest** as the professor and the **youngest** as the assistant.
 
----
-
-## 🔧 Features
-
-- Interactive command-line input
-- Age input validation
-- Sorts classmates by age
-- Assigns the youngest as assistant and the oldest as professor
-
----
-
-## 🛠️ Technologies Used
+## 🔧 Technologies Used
 
 - Python 3
-- Built-in modules: `input`, `sort`, `lambda`, `tuples`
+- Built-in functions (sorting, input validation)
 
----
+## 📌 Features
 
-## 🚀 How to Run
+- Accepts any number of classmates as input
+- Validates that ages are integers
+- Automatically sorts by age
+- Assigns professor (oldest) and assistant (youngest) roles
 
-1. Make sure you have Python 3 installed.
-2. Clone the repository or download the files.
-3. Open a terminal and run:
+## 🗂 Example Usage
 
+```
+=== Class Role Selector ===
+Enter the name of classmate 1: Ana
+Enter the age of Ana: 22
+Enter the name of classmate 2: Carlos
+Enter the age of Carlos: 19
+...
+
+The professor is: Ana and the assistant is: Carlos
+```
+
+## ⚙️ Setup Instructions
+
+1. Clone this repository:
+```bash
+git clone https://github.com/JM90AR/class-role-selector.git
+cd class-role-selector
+```
+
+2. Run the script:
 ```bash
 python main.py
+```
+
+## 📫 Contact
+
+Created by Miguel Alba  
+Feel free to connect or reach out!
